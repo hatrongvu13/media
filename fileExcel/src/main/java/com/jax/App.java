@@ -16,7 +16,7 @@ import java.util.*;
 public class App {
     public static void main(String[] args) {
         try {
-            FileInputStream file = new FileInputStream(new File("/home/jaxtony/dataTest/daily.xlsx"));
+            FileInputStream file = new FileInputStream(new File("/home/jaxtony/dataTest/Template_Daily_Horoscope.xlsx"));
             Workbook workbook = new XSSFWorkbook(file);
             System.out.println("Count sheet: "+workbook.getNumberOfSheets());
             Sheet sheet = workbook.getSheetAt(0);
