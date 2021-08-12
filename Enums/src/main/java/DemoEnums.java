@@ -1,16 +1,17 @@
 public enum DemoEnums {
-    BACH_DUONG("BẠCH DƯƠNG"),
-    KIM_NGUU("KIM NGƯU"),
-    SONG_TU("SONG TỬ"),
-    CU_GIAI("CỰ GIẢI"),
-    SU_TU("SƯ TỬ"),
-    XU_NU("XỬ NỮ"),
-    THIEN_BINH("THIÊN BÌNH"),
-    BO_CAP("BỌ CẠP"),
-    NHAN_MA("NHÂN MÃ"),
-    MA_KET("MA KẾT"),
-    BAO_BINH("BẢO BÌNH"),
-    SONG_NGU("SONG NGƯ");
+    ARIES("BẠCH DƯƠNG"),
+    TAURUS("KIM NGƯU"),
+    GEMINI("SONG TỬ"),
+    CANCER("CỰ GIẢI"),
+    LEO("SƯ TỬ"),
+    VIRGO("XỬ NỮ"),
+    LIBRA("THIÊN BÌNH"),
+    SCORPIUS("BỌ CẠP"),
+    SAGITTARIUS("NHÂN MÃ"),
+    CAPRICORN("MA KẾT"),
+    AQUARIUS("BẢO BÌNH"),
+    PISCES("SONG NGƯ"),
+    UNDEFINE("UNDEFINE");
 
     private final String zodiac;
 
